@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/pog.jpg);
+    background-size: cover;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow: auto;  
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+}
+
+b {
+    font-size:40px;
+    font-weight:bold;
+    color: #3c8619;
+}
+
+.a {
+    margin-top: 100px;
+}
+
+#clock{
+    display: block;
+    font-family:Tahoma, sans-serif;
+    font-size:50px;
+    font-weight:bold;
+    color:#f6fa20;	
+  }
+
+  #theDate {
+      display: block;
+      font-family:Tahoma, sans-serif;
+      font-weight:bold;
+      height: 100px;
+      width: 500px;
+      background-color: transparent;
+      border: transparent;
+      font-size: 50px;
+      color: #f6fa20;
+  }
+
+
+
+#weather {
+    display: flex;
+    font-size: 40px;
+    color: #f6fa20;
+    flex-direction: column;
+}
+
+.weth {
+    font-size:40px;
+    font-weight:bold;
+    color: #3c8619;
+}
+
+.icon {
+    background: #3c8619;
+    height: 100px;
+    width: 100px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
